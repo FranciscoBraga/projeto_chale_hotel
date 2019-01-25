@@ -117,3 +117,28 @@ img.depoimento {
 	float: right;
 	
 }
+
+/*------- Área de Conteúdos-------------------------*/
+
+#area-principal{
+	float: left;
+	width: 50%;
+	background: #EDE9CC url(../img/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0;
+}
+
+#area-lateral{
+	float: right;
+	width: 50%;
+	background: #DCD7B7 url(../img/bg-area-lateral.png) top left repeat-x;
+	padding: 20px 0;
+}
+
+.conteudo{
+	margin: 0 auto;
+	width: 90%;
+}
+
+#rodape{
+	clear: both;
+}
