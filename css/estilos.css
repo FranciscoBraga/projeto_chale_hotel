@@ -12,6 +12,10 @@ a{
 	text-decoration: none;
 }
 
+ul{
+	list-style: none;
+}
+
 #container{
 	background-color: #ede9cc;
 	margin: 0  auto;
@@ -43,7 +47,7 @@ a{
 	z-index: 3;
 	background: url(../img/logo.png) no-repeat;
 	width:151px;
-	height: 61px;
+	height: 80px;
 	text-indent: -5000px;
 
 
@@ -87,4 +91,29 @@ a.reserva{
 	padding: 5px 10px;
 	float: right;
 	font-size: 0.8em;
+}
+
+#menu{
+	margin-top: 15px;
+}
+
+ul#navegacao{
+	float: left;
+}
+ul#navegacao a{
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	color: #6e672c;
+	line-height: 30px;
+}
+ul#navegacao a:hover{
+	background-color: #fdf6be;
+}
+
+img.depoimento {
+	width: 235px;
+	height: 164px;
+	float: right;
+	
 }
